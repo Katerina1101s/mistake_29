@@ -1,0 +1,180 @@
+@import url(null.css);
+
+.wrapper {
+   width: 800px;
+   margin: 0 auto;
+}
+.header {
+}
+.nav {
+   position: fixed;
+   top: 40px;
+   left: 350px;
+   z-index: 100;
+}
+.nav__container {
+   background-color: coral;
+   box-shadow: 50px 10px 0px #000, 50px -10px 0px #000, -50px -10px 0px #000, -50px 10px 0px rgb(7, 7, 7);
+   border-radius: 20px;
+}
+.nav__list {
+   
+}
+.nav__item {
+   display: inline-block;
+   padding: 30px;
+   font-size: 30px;
+}
+
+.nav__item:hover, .nav__item:active, .nav__item:focus {
+   text-decoration: underline;
+   font-size: 35px;
+   text-shadow: 1px 1px 10px rgb(233, 203, 158);
+}
+body{
+   background: url(../img/background.jpeg) 0 0/ cover repeat-y;
+}
+.main {
+   
+}
+.main__container {
+}
+
+.pizza{
+}
+
+
+
+.pizza__row {
+   position: relative;
+}
+
+.pizza__block{
+   width: 600px;
+   background-color: sandybrown;
+   position: relative;
+   top: 200px;
+   left: -150px;
+   padding: 20px 0px 20px 30px;
+}
+.pizza__picture {
+   
+}
+.pizza__item-pic {
+   width: 200px;
+}
+.pizza__name {
+   font-weight: 900;
+   padding-top: 10px;
+}
+.pizza__prize {
+   font-style: italic;
+   padding: 10px 0px;
+}
+.pizza__image {
+
+}
+.pizza__item-img {
+   position: fixed;
+   top: 300px;
+   right: 50px;
+   width: 300px;
+   z-index: 30;
+   border-radius: 20px;
+}
+
+
+.sushi {
+   position: relative;
+   top: 40px;
+   left: 50px;
+}
+
+.sushi__container {
+   width: 600px;
+   background-color: rgb(78, 146, 10);
+   margin: 10px auto;
+}
+.sushi__row {
+}
+.sushi__block {
+   padding: 10px 0px 10px 20px;
+}
+
+.sushi__picture {
+   display: inline-block;
+}
+.sushi__item-picture {
+   margin-top: -70px;
+   width: 200px;
+}
+
+.info{   
+   display: inline-block;
+   padding-left: 30px;
+}
+.info__name{
+   font-weight: 900;
+   padding-top: 50px;
+   padding-bottom: 10px;
+
+}
+.info__prize{
+   font-weight: 900;
+   font-style: italic;
+}
+
+.dessert {
+}
+.dessert__container {
+   background-color: rgb(160, 105, 148);
+   width: 500px;
+   position: relative;
+   bottom: 50px;
+   left: 800px;
+   padding: 30px;
+}
+.dessert__row {
+}
+.dessert__block:not(:last-child) {
+   padding-bottom: 20px;
+}
+.dessert__picture {
+}
+.dessert__item-picture {
+   width: 200px;
+}
+.dessert__info {
+}
+.more {
+}
+.more__name {
+   font-weight: 900;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.more__price {
+   font-weight: 900;
+   font-style: italic;
+}
+
+.round{
+   position: relative;
+}
+.round__pic {
+   position: absolute;
+   top: -1400px;
+   left: 600px;
+   width: 400px;
+   border-radius: 200px;
+}
+
+.additional {
+}
+
+.additional__pic {
+   position: absolute;
+   bottom: -900px;
+   left: 200px;
+   width: 400px;
+}
